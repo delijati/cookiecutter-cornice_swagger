@@ -1,0 +1,19 @@
+{
+  "name": "static",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Cornices/cornice.ext.swagger",
+  "authors": [
+    "Josip Delic <delijati@gmx.net>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "swagger-ui": "~2.1.3"
+  }
+}
