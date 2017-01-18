@@ -28,6 +28,8 @@
 
 <body>
     <div class="swagger-section container">
+        <div id="message-bar" class="swagger-ui-wrap"
+            data-sw-translate>&nbsp;</div>
         <div id="swagger-ui-container" class="swagger-ui-wrap"></div>
     </div>
     <script type="text/javascript">
@@ -35,7 +37,7 @@
         {
             var swaggerUi = new SwaggerUi(
             {
-                url: "${request.route_url('swagger_json')}",
+                url: "${request.route_url('OpenAPI')}",
                 dom_id: "swagger-ui-container",
                 validatorUrl: null,
                 docExpansion: "list"
